@@ -1,0 +1,78 @@
+body{
+    background-color: #2e2e2e;
+}
+.container{
+    color: white;
+}
+.logoName span{
+    color: #fd8700;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuOption{
+    display: flex;
+    justify-content: space-around ;
+    list-style: none;
+    color: white;
+    align-items: center;
+    /* margin-top: 25px; */
+}
+div .menu{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-left: 65px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: #fd8700;
+    border-bottom:2px solid #fd8700;
+}
+/* future usage */
+
+/* button{
+    padding: 20px;
+    margin-left: 60px;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 1px 1px 5px #fd8700;
+}
+button:hover{
+    color: #fd8700;
+} */
+
+/* content */
+
+div .home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div + span{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+span a{
+    text-decoration: none;
+    color: #fd8700;
+    content: "";
+    /* position: absolute; */
+    left: 25px;
+    bottom: 0;
+    height: 15px;
+    width: 10%;
+}
+span a::before{
+    left: 25px;
+    bottom: 0;
+   
+}
